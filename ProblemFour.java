@@ -13,6 +13,13 @@ public class ProblemFour {
                 }
             }
         }
+        String temp = "";
+        for (int i = 0; i < numArray.length; i++) {
+            if(max != numArray[i]) {
+                temp += numArray[i];
+            }
+        }
+        System.out.println("Largest possible number: " + max + temp);
     }
     
     public static void main(String[] args) {
